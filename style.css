@@ -116,22 +116,23 @@ footer h3:nth-child(2) {
 .inquiry {
     background-image: url('images/purple.png');
     background-repeat: no-repeat;
-    width: 70%;
-    height: 260px;
-    margin: 12% 30%;
+    width: 700px;
+    height: 700px;
+    margin: auto;
 }
 
 .inquiry h1 {
     color: white;
     position: relative;
-    top: 24%;
+    top: 10%;
     left: 4%;
-    font-size: 42px;
+    font-size: 35px;
 }
 
 .inquiry a {
     position: relative;
     left: 440px;
+    top: 2%;
 }
 
 footer {
@@ -162,8 +163,5 @@ footer img:nth-child(1) {
 @media screen and (max-width: 1080px) {
     .project {
         height: 280px;
-    }
-    .inquiry {
-        margin: 12% 16%;
     }
 }
